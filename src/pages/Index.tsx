@@ -45,39 +45,7 @@ const Index = () => {
         </div>
 
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 mb-16">
-          <Card className="p-6 bg-card border-4 border-card/70 shadow-[8px_8px_0_rgba(0,0,0,0.3)] hover:shadow-[12px_12px_0_rgba(0,0,0,0.4)] transition-all hover:-translate-y-1 animate-fade-in">
-            <div className="space-y-4">
-              <div className="flex items-center gap-3 pb-3 border-b-2 border-primary/30">
-                <div className="w-8 h-8 bg-primary rounded flex items-center justify-center">
-                  <Icon name="Users" size={20} className="text-primary-foreground" />
-                </div>
-                <h3 className="font-pixel text-sm text-foreground">Server Status</h3>
-              </div>
-              
-              <div className="space-y-3">
-                <div className="flex justify-between items-center">
-                  <span className="font-pixel text-xs text-foreground/70">Online Players</span>
-                  <span className="font-pixel text-sm text-primary">2160033</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="font-pixel text-xs text-foreground/70">Bedline Players</span>
-                  <span className="font-pixel text-sm text-primary">2750054</span>
-                </div>
-                <div className="flex justify-between items-center pt-3 border-t-2 border-primary/30">
-                  <span className="font-pixel text-xs text-foreground/70">Server Version</span>
-                  <span className="font-pixel text-xs text-foreground">0.13.0</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="font-pixel text-xs text-foreground/70">IP</span>
-                  <span className="font-pixel text-xs text-foreground">dd3st 3E17 40002S</span>
-                </div>
-              </div>
-              
-              <Button className="w-full mt-4 font-pixel text-xs bg-primary hover:bg-primary/90 text-primary-foreground border-b-4 border-primary/50 hover:border-primary/70 transition-all hover:translate-y-0.5 active:translate-y-1">
-                Join Server
-              </Button>
-            </div>
-          </Card>
+
 
           <Card className="p-6 bg-card border-4 border-card/70 shadow-[8px_8px_0_rgba(0,0,0,0.3)] hover:shadow-[12px_12px_0_rgba(0,0,0,0.4)] transition-all hover:-translate-y-1 animate-fade-in [animation-delay:150ms]">
             <div className="space-y-4">
