@@ -11,7 +11,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-8">
-              <h1 className="font-pixel text-lg text-primary drop-shadow-[0_2px_0_rgba(0,0,0,0.8)]">
+              <h1 className="font-pixel text-primary drop-shadow-[0_2px_0_rgba(0,0,0,0.8)] font-black text-3xl">
                 GHASTLAND
               </h1>
               <div className="hidden md:flex gap-6 text-sm">
