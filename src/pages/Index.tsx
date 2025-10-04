@@ -79,9 +79,7 @@ const Index = () => {
           <Card className="p-8 bg-card border-4 border-card/70 shadow-[8px_8px_0_rgba(0,0,0,0.3)] animate-fade-in [animation-delay:300ms]">
             <div className="text-center space-y-6">
               <div className="flex items-center justify-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-destructive rounded flex items-center justify-center animate-float">
-                  <Icon name="Ghost" size={24} className="text-destructive-foreground" />
-                </div>
+
                 <h3 className="font-pixel text-lg text-foreground">About GhastLand</h3>
               </div>
               
