@@ -42,6 +42,9 @@ const Index = () => {
           <p className="font-pixel text-xs text-muted-foreground mt-4">
             GhastLand.mineserver.xyz
           </p>
+          <p className="font-pixel text-xs md:text-sm text-foreground/80 max-w-2xl mx-auto leading-relaxed mt-6">
+            Добавьте ваш текст здесь
+          </p>
         </div>
 
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 mb-16">
