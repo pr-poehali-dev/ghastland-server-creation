@@ -65,10 +65,7 @@ const Index = () => {
                   <div className="text-2xl">🏗️</div>
                   <span className="font-pixel text-xs text-foreground">Creative</span>
                 </div>
-                <div className="flex items-center gap-3 p-2 bg-muted/50 rounded">
-                  <div className="text-2xl">🎯</div>
-                  <span className="font-pixel text-xs text-foreground">Mini-Games</span>
-                </div>
+
                 <div className="flex items-center gap-3 p-2 bg-muted/50 rounded">
                   <div className="text-2xl">🔮</div>
                   <span className="font-pixel text-xs text-foreground">Custom Mods</span>
