@@ -42,9 +42,7 @@ const Index = () => {
               GHASTLAND
             </h2>
           </div>
-          <p className="font-pixel text-xs md:text-sm text-foreground/80 max-w-2xl mx-auto leading-relaxed">
-            Minecraft Server
-          </p>
+
           <p className="font-pixel text-xs text-muted-foreground mt-4">
             GhastLand.mineserver.xyz
           </p>
