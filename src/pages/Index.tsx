@@ -38,7 +38,7 @@ const Index = () => {
       <main className="relative z-10 container mx-auto px-4 py-16">
         <div className="text-center mb-16 animate-fade-in">
           <div className="inline-block mb-8 p-6 bg-primary border-4 border-primary/70 shadow-[8px_8px_0_rgba(0,0,0,0.3)] animate-pulse-glow">
-            <h2 className="font-pixel text-4xl md:text-6xl text-primary-foreground drop-shadow-[4px_4px_0_rgba(0,0,0,0.5)]">
+            <h2 className="font-pixel md:text-6xl text-primary-foreground drop-shadow-[4px_4px_0_rgba(0,0,0,0.5)] text-sm">
               GHASTLAND
             </h2>
           </div>
