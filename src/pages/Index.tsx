@@ -26,11 +26,7 @@ const Index = () => {
                 </a>
               </div>
             </div>
-            <Button 
-              className="font-pixel text-xs bg-primary hover:bg-primary/90 text-primary-foreground border-b-4 border-primary/50 hover:border-primary/70 transition-all hover:translate-y-0.5 active:translate-y-1 px-6"
-            >
-              Join
-            </Button>
+
           </div>
         </div>
       </nav>
