@@ -45,6 +45,9 @@ const Index = () => {
           <p className="font-pixel text-xs md:text-sm text-foreground/80 max-w-2xl mx-auto leading-relaxed mt-6">
             Тгк - <a href="https://t.me/gast3232" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline">https://t.me/gast3232</a>
           </p>
+          <p className="font-pixel text-xs md:text-sm text-foreground/80 max-w-2xl mx-auto leading-relaxed mt-4">
+            Бот - <a href="https://t.me/GhastLand_bot" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline">GhastLand_bot</a>
+          </p>
         </div>
 
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 mb-16">
