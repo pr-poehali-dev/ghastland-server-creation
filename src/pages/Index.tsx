@@ -85,9 +85,7 @@ const Index = () => {
                 <h3 className="font-pixel text-lg text-foreground">About GhastLand</h3>
               </div>
               
-              <p className="font-pixel text-xs text-foreground/70 leading-relaxed max-w-2xl mx-auto">
-                Welcome to GhastLand - the ultimate Minecraft experience! Join thousands of players in our custom-built world filled with adventures, challenges, and endless possibilities. Build, explore, and conquer together!
-              </p>
+
               
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-6">
                 <div className="text-center">
