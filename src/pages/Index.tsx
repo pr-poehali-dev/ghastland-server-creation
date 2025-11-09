@@ -49,8 +49,8 @@ const Index = () => {
             </h2>
           </div>
 
-          <div className="flex items-center justify-center gap-3 mt-4">
-            <p className="font-pixel text-muted-foreground text-justify text-xs">
+          <div className="flex flex-col items-center gap-2 mt-4">
+            <p className="font-pixel text-xs text-muted-foreground">
               GhastLand.mineserver.xyz
             </p>
             <Button
