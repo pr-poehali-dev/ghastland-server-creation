@@ -63,9 +63,6 @@ const Index = () => {
             </Button>
           </div>
           <p className="font-pixel text-xs md:text-sm text-foreground/80 max-w-2xl mx-auto leading-relaxed mt-6">
-            Бот - <a href="https://t.me/GhastLand_bot" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline">GhastLand_bot</a>
-          </p>
-          <p className="font-pixel text-xs md:text-sm text-foreground/80 max-w-2xl mx-auto leading-relaxed mt-4">
             Предложка - <a href="https://t.me/GhastLandpredlozka_bot" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline">GhastLandpredlozka_bot</a>
           </p>
           <p className="font-pixel text-xs md:text-sm text-foreground/80 max-w-2xl mx-auto leading-relaxed mt-4">
