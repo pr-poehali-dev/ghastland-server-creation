@@ -1,8 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
+import { useToast } from "@/hooks/use-toast";
 
 const Index = () => {
+  const { toast } = useToast();
+
+  const copyServerIP = () => {
+    navigator.clipboard.writeText('GhastLand.mineserver.xyz');
+    toast({
+      title: "IP скопирован!",
+      description: "GhastLand.mineserver.xyz скопирован в буфер обмена",
+    });
+  };
   return (
     <div className="min-h-screen bg-background text-foreground overflow-hidden">
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDEwIEwgNDAgMTAgTSAxMCAwIEwgMTAgNDAgTSAwIDIwIEwgNDAgMjAgTSAyMCAwIEwgMjAgNDAgTSAwIDMwIEwgNDAgMzAgTSAzMCAwIEwgMzAgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-20"></div>
@@ -39,9 +49,19 @@ const Index = () => {
             </h2>
           </div>
 
-          <p className="font-pixel text-xs text-muted-foreground mt-4">
-            GhastLand.mineserver.xyz
-          </p>
+          <div className="flex items-center justify-center gap-3 mt-4">
+            <p className="font-pixel text-xs text-muted-foreground">
+              GhastLand.mineserver.xyz
+            </p>
+            <Button
+              onClick={copyServerIP}
+              size="sm"
+              className="font-pixel text-xs bg-secondary hover:bg-secondary/80 text-secondary-foreground border-2 border-secondary/70 shadow-[4px_4px_0_rgba(0,0,0,0.3)] hover:shadow-[6px_6px_0_rgba(0,0,0,0.4)] transition-all hover:-translate-y-0.5"
+            >
+              <Icon name="Copy" size={14} className="mr-1" />
+              Копировать IP
+            </Button>
+          </div>
           <p className="font-pixel text-xs md:text-sm text-foreground/80 max-w-2xl mx-auto leading-relaxed mt-6">
             Тгк - <a href="https://t.me/gast3232" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline">https://t.me/gast3232</a>
           </p>
