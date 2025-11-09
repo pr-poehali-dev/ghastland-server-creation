@@ -114,6 +114,76 @@ const Index = () => {
             </div>
           </Card>
         </div>
+
+        <div className="max-w-4xl mx-auto mt-16">
+          <Card className="p-8 bg-card border-4 border-card/70 shadow-[8px_8px_0_rgba(0,0,0,0.3)] animate-fade-in [animation-delay:450ms]">
+            <div className="space-y-6">
+              <div className="flex items-center gap-3 pb-4 border-b-4 border-secondary/30">
+                <div className="w-10 h-10 bg-secondary border-2 border-secondary/70 shadow-[4px_4px_0_rgba(0,0,0,0.3)] flex items-center justify-center">
+                  <Icon name="ScrollText" size={24} className="text-secondary-foreground" />
+                </div>
+                <h3 className="font-pixel text-lg text-foreground drop-shadow-[2px_2px_0_rgba(0,0,0,0.3)]">Правила Сервера</h3>
+              </div>
+              
+              <div className="space-y-4">
+                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)]">
+                  <div className="flex items-start gap-3">
+                    <span className="font-pixel text-primary text-sm flex-shrink-0">1.</span>
+                    <p className="font-pixel text-xs text-foreground leading-relaxed">Запрещён читерство и использование модификаций, дающих преимущество</p>
+                  </div>
+                </div>
+
+                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)]">
+                  <div className="flex items-start gap-3">
+                    <span className="font-pixel text-primary text-sm flex-shrink-0">2.</span>
+                    <p className="font-pixel text-xs text-foreground leading-relaxed">Уважайте других игроков - никакого гриферства и оскорблений</p>
+                  </div>
+                </div>
+
+                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)]">
+                  <div className="flex items-start gap-3">
+                    <span className="font-pixel text-primary text-sm flex-shrink-0">3.</span>
+                    <p className="font-pixel text-xs text-foreground leading-relaxed">Запрещено строить на территории других игроков без разрешения</p>
+                  </div>
+                </div>
+
+                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)]">
+                  <div className="flex items-start gap-3">
+                    <span className="font-pixel text-primary text-sm flex-shrink-0">4.</span>
+                    <p className="font-pixel text-xs text-foreground leading-relaxed">Не спамьте в чате и не используйте нецензурную лексику</p>
+                  </div>
+                </div>
+
+                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)]">
+                  <div className="flex items-start gap-3">
+                    <span className="font-pixel text-primary text-sm flex-shrink-0">5.</span>
+                    <p className="font-pixel text-xs text-foreground leading-relaxed">Слушайте администрацию и модераторов сервера</p>
+                  </div>
+                </div>
+
+                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)]">
+                  <div className="flex items-start gap-3">
+                    <span className="font-pixel text-primary text-sm flex-shrink-0">6.</span>
+                    <p className="font-pixel text-xs text-foreground leading-relaxed">Запрещены фермы, создающие лаги на сервере</p>
+                  </div>
+                </div>
+
+                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)]">
+                  <div className="flex items-start gap-3">
+                    <span className="font-pixel text-primary text-sm flex-shrink-0">7.</span>
+                    <p className="font-pixel text-xs text-foreground leading-relaxed">Не используйте баги и дюпы - сообщайте о них администрации</p>
+                  </div>
+                </div>
+
+                <div className="p-4 bg-destructive/20 border-4 border-destructive shadow-[6px_6px_0_rgba(0,0,0,0.3)] mt-6">
+                  <p className="font-pixel text-xs text-center text-foreground leading-relaxed">
+                    ⚠️ За нарушение правил - бан! Незнание правил не освобождает от ответственности
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Card>
+        </div>
       </main>
 
       <footer className="relative z-10 border-t-4 border-card bg-muted/50 backdrop-blur-sm mt-16 py-8">
