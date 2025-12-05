@@ -67,9 +67,59 @@ const Index = () => {
           </p>
         </div>
 
+        <div className="max-w-4xl mx-auto mb-16">
+          <Card className="p-8 bg-gradient-to-br from-blue-900/40 via-card to-orange-900/40 border-4 border-blue-500/30 shadow-[8px_8px_0_rgba(0,0,0,0.3)] animate-fade-in [animation-delay:150ms]">
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse">
+                <thead>
+                  <tr className="border-b-4 border-orange-500/50">
+                    <th className="font-pixel text-sm text-orange-400 p-4 text-left">Параметр</th>
+                    <th className="font-pixel text-sm text-blue-400 p-4 text-left">Информация</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-colors">
+                    <td className="font-pixel text-xs text-foreground p-4">Версия Minecraft</td>
+                    <td className="font-pixel text-xs text-orange-300 p-4">1.16.5</td>
+                  </tr>
+                  <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-colors">
+                    <td className="font-pixel text-xs text-foreground p-4">Режим работы</td>
+                    <td className="font-pixel text-xs text-orange-300 p-4">24/7</td>
+                  </tr>
+                  <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-colors">
+                    <td className="font-pixel text-xs text-foreground p-4">Сервер</td>
+                    <td className="p-4">
+                      <a href="https://t.me/GhastLand" target="_blank" rel="noopener noreferrer" className="font-pixel text-xs text-blue-400 hover:text-blue-300 transition-colors inline-flex items-center gap-2">
+                        <Icon name="Send" size={16} className="text-blue-400" />
+                        Telegram канал
+                      </a>
+                    </td>
+                  </tr>
+                  <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-colors">
+                    <td className="font-pixel text-xs text-foreground p-4">Скачать Minecraft Java</td>
+                    <td className="p-4">
+                      <a href="https://tlauncher.ru/" target="_blank" rel="noopener noreferrer" className="font-pixel text-xs text-orange-400 hover:text-orange-300 transition-colors inline-flex items-center gap-2">
+                        <Icon name="Coffee" size={16} className="text-orange-400" />
+                        TLauncher
+                      </a>
+                    </td>
+                  </tr>
+                  <tr className="hover:bg-blue-500/10 transition-colors">
+                    <td className="font-pixel text-xs text-foreground p-4">Скачать Minecraft Bedrock</td>
+                    <td className="p-4">
+                      <a href="https://trashbox.ru/link/pojavlauncher-android" target="_blank" rel="noopener noreferrer" className="font-pixel text-xs text-orange-400 hover:text-orange-300 transition-colors inline-flex items-center gap-2">
+                        <Icon name="Smartphone" size={16} className="text-orange-400" />
+                        PojavLauncher
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </Card>
+        </div>
+
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 mb-16">
-
-
           <Card className="p-6 bg-card border-4 border-card/70 shadow-[8px_8px_0_rgba(0,0,0,0.3)] hover:shadow-[12px_12px_0_rgba(0,0,0,0.4)] transition-all hover:-translate-y-1 animate-fade-in [animation-delay:150ms]">
             <div className="space-y-4">
               <div className="flex items-center gap-3 pb-3 border-b-2 border-secondary/30">
@@ -135,6 +185,10 @@ const Index = () => {
                 </div>
                 <h3 className="font-pixel text-lg text-foreground drop-shadow-[2px_2px_0_rgba(0,0,0,0.3)]">Правила Сервера</h3>
               </div>
+              
+              <p className="font-pixel text-xs md:text-sm text-foreground/90 leading-relaxed p-4 bg-primary/10 border-2 border-primary/30 shadow-[4px_4px_0_rgba(0,0,0,0.2)]">
+                Добро пожаловать на наш политический сервер Minecraft — уникальное пространство, где вы можете погрузиться в мир политических интриг, дипломатии и стратегического мышления!
+              </p>
               
               <div className="space-y-4">
                 <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)]">
