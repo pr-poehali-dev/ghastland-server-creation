@@ -96,7 +96,7 @@ const Index = () => {
                     </td>
                   </tr>
                   <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-colors">
-                    <td className="font-pixel text-xs text-foreground p-4">Скачать Minecraft Java</td>
+                    <td className="font-pixel text-xs text-foreground p-4">Скачать на компьютер</td>
                     <td className="p-4">
                       <a href="https://tlauncher.ru/" target="_blank" rel="noopener noreferrer" className="font-pixel text-xs text-orange-400 hover:text-orange-300 transition-colors inline-flex items-center gap-2">
                         <Icon name="Coffee" size={16} className="text-orange-400" />
@@ -105,7 +105,7 @@ const Index = () => {
                     </td>
                   </tr>
                   <tr className="hover:bg-blue-500/10 transition-colors">
-                    <td className="font-pixel text-xs text-foreground p-4">Скачать Minecraft Bedrock</td>
+                    <td className="font-pixel text-xs text-foreground p-4">Скачать на телефон</td>
                     <td className="p-4">
                       <a href="https://trashbox.ru/link/pojavlauncher-android" target="_blank" rel="noopener noreferrer" className="font-pixel text-xs text-orange-400 hover:text-orange-300 transition-colors inline-flex items-center gap-2">
                         <Icon name="Smartphone" size={16} className="text-orange-400" />
