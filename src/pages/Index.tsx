@@ -62,9 +62,6 @@ const Index = () => {
               Копировать IP
             </Button>
           </div>
-          <p className="font-pixel text-[10px] md:text-xs text-foreground/80 max-w-2xl mx-auto leading-relaxed mt-6 px-4">
-            Техподдержка - <a href="https://t.me/GhastLandpredlozka_bot" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline break-all">GhastLandpredlozka_bot</a>
-          </p>
         </div>
 
         <div className="max-w-4xl mx-auto mb-16">
