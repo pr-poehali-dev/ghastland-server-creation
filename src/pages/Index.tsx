@@ -62,8 +62,8 @@ const Index = () => {
               Копировать IP
             </Button>
           </div>
-          <p className="font-pixel text-xs md:text-sm text-foreground/80 max-w-2xl mx-auto leading-relaxed mt-6">
-            Техподдержка - <a href="https://t.me/GhastLandpredlozka_bot" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline">GhastLandpredlozka_bot</a>
+          <p className="font-pixel text-[10px] md:text-xs text-foreground/80 max-w-2xl mx-auto leading-relaxed mt-6 px-4">
+            Техподдержка - <a href="https://t.me/GhastLandpredlozka_bot" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors underline break-all">GhastLandpredlozka_bot</a>
           </p>
         </div>
 
@@ -73,43 +73,43 @@ const Index = () => {
               <table className="w-full border-collapse">
                 <thead>
                   <tr className="border-b-4 border-orange-500/50">
-                    <th className="font-pixel text-sm text-orange-400 p-4 text-left">Параметр</th>
-                    <th className="font-pixel text-sm text-blue-400 p-4 text-left">Информация</th>
+                    <th className="font-pixel text-xs md:text-sm text-orange-400 p-2 md:p-4 text-left">Параметр</th>
+                    <th className="font-pixel text-xs md:text-sm text-blue-400 p-2 md:p-4 text-left">Информация</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-colors">
-                    <td className="font-pixel text-xs text-foreground p-4">Версия Minecraft</td>
-                    <td className="font-pixel text-xs text-orange-300 p-4">1.16.5</td>
+                    <td className="font-pixel text-[10px] md:text-xs text-foreground p-2 md:p-4">Версия</td>
+                    <td className="font-pixel text-[10px] md:text-xs text-orange-300 p-2 md:p-4">1.16.5</td>
                   </tr>
                   <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-colors">
-                    <td className="font-pixel text-xs text-foreground p-4">Режим работы</td>
-                    <td className="font-pixel text-xs text-orange-300 p-4">24/7</td>
+                    <td className="font-pixel text-[10px] md:text-xs text-foreground p-2 md:p-4">Режим</td>
+                    <td className="font-pixel text-[10px] md:text-xs text-orange-300 p-2 md:p-4">24/7</td>
                   </tr>
                   <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-colors">
-                    <td className="font-pixel text-xs text-foreground p-4">Сервер</td>
-                    <td className="p-4">
-                      <a href="https://t.me/GhastLand" target="_blank" rel="noopener noreferrer" className="font-pixel text-xs text-blue-400 hover:text-blue-300 transition-colors inline-flex items-center gap-2">
-                        <Icon name="Send" size={16} className="text-blue-400" />
-                        Telegram канал
+                    <td className="font-pixel text-[10px] md:text-xs text-foreground p-2 md:p-4">Сервер</td>
+                    <td className="p-2 md:p-4">
+                      <a href="https://t.me/GhastLand" target="_blank" rel="noopener noreferrer" className="font-pixel text-[10px] md:text-xs text-blue-400 hover:text-blue-300 transition-colors inline-flex items-center gap-1 md:gap-2">
+                        <Icon name="Send" size={14} className="text-blue-400 flex-shrink-0" />
+                        <span className="break-words">Telegram</span>
                       </a>
                     </td>
                   </tr>
                   <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-colors">
-                    <td className="font-pixel text-xs text-foreground p-4">Скачать на компьютер</td>
-                    <td className="p-4">
-                      <a href="https://tlauncher.ru/" target="_blank" rel="noopener noreferrer" className="font-pixel text-xs text-orange-400 hover:text-orange-300 transition-colors inline-flex items-center gap-2">
-                        <Icon name="Coffee" size={16} className="text-orange-400" />
-                        TLauncher
+                    <td className="font-pixel text-[10px] md:text-xs text-foreground p-2 md:p-4">ПК</td>
+                    <td className="p-2 md:p-4">
+                      <a href="https://tlauncher.ru/" target="_blank" rel="noopener noreferrer" className="font-pixel text-[10px] md:text-xs text-orange-400 hover:text-orange-300 transition-colors inline-flex items-center gap-1 md:gap-2">
+                        <Icon name="Coffee" size={14} className="text-orange-400 flex-shrink-0" />
+                        <span className="break-words">TLauncher</span>
                       </a>
                     </td>
                   </tr>
                   <tr className="hover:bg-blue-500/10 transition-colors">
-                    <td className="font-pixel text-xs text-foreground p-4">Скачать на телефон</td>
-                    <td className="p-4">
-                      <a href="https://trashbox.ru/link/pojavlauncher-android" target="_blank" rel="noopener noreferrer" className="font-pixel text-xs text-orange-400 hover:text-orange-300 transition-colors inline-flex items-center gap-2">
-                        <Icon name="Smartphone" size={16} className="text-orange-400" />
-                        PojavLauncher
+                    <td className="font-pixel text-[10px] md:text-xs text-foreground p-2 md:p-4">Телефон</td>
+                    <td className="p-2 md:p-4">
+                      <a href="https://trashbox.ru/link/pojavlauncher-android" target="_blank" rel="noopener noreferrer" className="font-pixel text-[10px] md:text-xs text-orange-400 hover:text-orange-300 transition-colors inline-flex items-center gap-1 md:gap-2">
+                        <Icon name="Smartphone" size={14} className="text-orange-400 flex-shrink-0" />
+                        <span className="break-words">PojavLauncher</span>
                       </a>
                     </td>
                   </tr>
@@ -186,80 +186,80 @@ const Index = () => {
                 <h3 className="font-pixel text-lg text-foreground drop-shadow-[2px_2px_0_rgba(0,0,0,0.3)]">Правила Сервера</h3>
               </div>
               
-              <div className="p-6 bg-gradient-to-br from-green-900/30 via-card to-green-700/20 border-4 border-green-500/40 shadow-[8px_8px_0_rgba(0,0,0,0.3)]">
-                <p className="font-pixel text-sm md:text-base text-green-100 leading-relaxed mb-6 drop-shadow-[2px_2px_0_rgba(0,0,0,0.5)]">
+              <div className="p-4 md:p-6 bg-gradient-to-br from-green-900/30 via-card to-green-700/20 border-4 border-green-500/40 shadow-[8px_8px_0_rgba(0,0,0,0.3)]">
+                <p className="font-pixel text-xs md:text-sm text-green-100 leading-relaxed mb-4 md:mb-6 drop-shadow-[2px_2px_0_rgba(0,0,0,0.5)]">
                   Добро пожаловать на наш политический сервер Minecraft — уникальное пространство, где вы можете погрузиться в мир политических интриг, дипломатии и стратегического мышления!
                 </p>
                 
-                <h4 className="font-pixel text-base text-white mb-4 drop-shadow-[2px_2px_0_rgba(0,0,0,0.5)]">Что вас ждет:</h4>
+                <h4 className="font-pixel text-sm md:text-base text-white mb-3 md:mb-4 drop-shadow-[2px_2px_0_rgba(0,0,0,0.5)]">Что вас ждет:</h4>
                 
-                <div className="space-y-4">
-                  <div className="p-4 bg-green-950/40 border-l-4 border-green-400 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
-                    <div className="flex items-start gap-3">
-                      <span className="font-pixel text-green-400 text-sm flex-shrink-0">🏛️</span>
+                <div className="space-y-3 md:space-y-4">
+                  <div className="p-3 md:p-4 bg-green-950/40 border-l-4 border-green-400 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
+                    <div className="flex items-start gap-2 md:gap-3">
+                      <span className="font-pixel text-green-400 text-xs md:text-sm flex-shrink-0">🏛️</span>
                       <div>
-                        <h5 className="font-pixel text-xs text-green-300 mb-2">Политические фракции</h5>
-                        <p className="font-pixel text-xs text-green-100/80 leading-relaxed">
+                        <h5 className="font-pixel text-[10px] md:text-xs text-green-300 mb-1 md:mb-2">Политические фракции</h5>
+                        <p className="font-pixel text-[10px] md:text-xs text-green-100/80 leading-relaxed">
                           Создайте или присоединитесь к одной из множества фракций, каждая из которых имеет свои уникальные цели, идеологии и стратегии. Станьте лидером своей нации или верным подданным — выбор за вами!
                         </p>
                       </div>
                     </div>
                   </div>
 
-                  <div className="p-4 bg-green-950/40 border-l-4 border-green-400 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
-                    <div className="flex items-start gap-3">
-                      <span className="font-pixel text-green-400 text-sm flex-shrink-0">🗳️</span>
+                  <div className="p-3 md:p-4 bg-green-950/40 border-l-4 border-green-400 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
+                    <div className="flex items-start gap-2 md:gap-3">
+                      <span className="font-pixel text-green-400 text-xs md:text-sm flex-shrink-0">🗳️</span>
                       <div>
-                        <h5 className="font-pixel text-xs text-green-300 mb-2">Выборы и голосования</h5>
-                        <p className="font-pixel text-xs text-green-100/80 leading-relaxed">
+                        <h5 className="font-pixel text-[10px] md:text-xs text-green-300 mb-1 md:mb-2">Выборы и голосования</h5>
+                        <p className="font-pixel text-[10px] md:text-xs text-green-100/80 leading-relaxed">
                           Участвуйте в регулярных выборах, где вы сможете голосовать за своих кандидатов или баллотироваться на выборные должности. Формируйте законы и управляйте жизнью вашего государства!
                         </p>
                       </div>
                     </div>
                   </div>
 
-                  <div className="p-4 bg-green-950/40 border-l-4 border-green-400 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
-                    <div className="flex items-start gap-3">
-                      <span className="font-pixel text-green-400 text-sm flex-shrink-0">🤝</span>
+                  <div className="p-3 md:p-4 bg-green-950/40 border-l-4 border-green-400 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
+                    <div className="flex items-start gap-2 md:gap-3">
+                      <span className="font-pixel text-green-400 text-xs md:text-sm flex-shrink-0">🤝</span>
                       <div>
-                        <h5 className="font-pixel text-xs text-green-300 mb-2">Дипломатия и альянсы</h5>
-                        <p className="font-pixel text-xs text-green-100/80 leading-relaxed">
+                        <h5 className="font-pixel text-[10px] md:text-xs text-green-300 mb-1 md:mb-2">Дипломатия и альянсы</h5>
+                        <p className="font-pixel text-[10px] md:text-xs text-green-100/80 leading-relaxed">
                           Установите дипломатические отношения с другими фракциями, заключайте альянсы или ведите войны. Используйте хитрость и стратегию, чтобы добиться своих целей.
                         </p>
                       </div>
                     </div>
                   </div>
 
-                  <div className="p-4 bg-green-950/40 border-l-4 border-green-400 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
-                    <div className="flex items-start gap-3">
-                      <span className="font-pixel text-green-400 text-sm flex-shrink-0">💰</span>
+                  <div className="p-3 md:p-4 bg-green-950/40 border-l-4 border-green-400 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
+                    <div className="flex items-start gap-2 md:gap-3">
+                      <span className="font-pixel text-green-400 text-xs md:text-sm flex-shrink-0">💰</span>
                       <div>
-                        <h5 className="font-pixel text-xs text-green-300 mb-2">Экономическая система</h5>
-                        <p className="font-pixel text-xs text-green-100/80 leading-relaxed">
+                        <h5 className="font-pixel text-[10px] md:text-xs text-green-300 mb-1 md:mb-2">Экономическая система</h5>
+                        <p className="font-pixel text-[10px] md:text-xs text-green-100/80 leading-relaxed">
                           Развивайте свою экономику, торгуйте ресурсами и стройте процветающие города. Экономическая мощь вашей фракции будет определять ее влияние на сервере.
                         </p>
                       </div>
                     </div>
                   </div>
 
-                  <div className="p-4 bg-green-950/40 border-l-4 border-green-400 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
-                    <div className="flex items-start gap-3">
-                      <span className="font-pixel text-green-400 text-sm flex-shrink-0">⭐</span>
+                  <div className="p-3 md:p-4 bg-green-950/40 border-l-4 border-green-400 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
+                    <div className="flex items-start gap-2 md:gap-3">
+                      <span className="font-pixel text-green-400 text-xs md:text-sm flex-shrink-0">⭐</span>
                       <div>
-                        <h5 className="font-pixel text-xs text-green-300 mb-2">События и квесты</h5>
-                        <p className="font-pixel text-xs text-green-100/80 leading-relaxed">
+                        <h5 className="font-pixel text-[10px] md:text-xs text-green-300 mb-1 md:mb-2">События и квесты</h5>
+                        <p className="font-pixel text-[10px] md:text-xs text-green-100/80 leading-relaxed">
                           Участвуйте в уникальных событиях и квестах, которые позволят вам заработать награды и улучшить положение вашей фракции.
                         </p>
                       </div>
                     </div>
                   </div>
 
-                  <div className="p-4 bg-green-950/40 border-l-4 border-green-400 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
-                    <div className="flex items-start gap-3">
-                      <span className="font-pixel text-green-400 text-sm flex-shrink-0">👥</span>
+                  <div className="p-3 md:p-4 bg-green-950/40 border-l-4 border-green-400 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
+                    <div className="flex items-start gap-2 md:gap-3">
+                      <span className="font-pixel text-green-400 text-xs md:text-sm flex-shrink-0">👥</span>
                       <div>
-                        <h5 className="font-pixel text-xs text-green-300 mb-2">Комьюнити и взаимодействие</h5>
-                        <p className="font-pixel text-xs text-green-100/80 leading-relaxed">
+                        <h5 className="font-pixel text-[10px] md:text-xs text-green-300 mb-1 md:mb-2">Комьюнити и взаимодействие</h5>
+                        <p className="font-pixel text-[10px] md:text-xs text-green-100/80 leading-relaxed">
                           Общайтесь с другими игроками, обсуждайте стратегии и делитесь опытом. Наша дружелюбная комьюнити всегда готова помочь новичкам!
                         </p>
                       </div>
@@ -267,8 +267,8 @@ const Index = () => {
                   </div>
                 </div>
 
-                <div className="mt-6 p-4 bg-white/10 border-2 border-white/30 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
-                  <p className="font-pixel text-sm text-white leading-relaxed drop-shadow-[2px_2px_0_rgba(0,0,0,0.5)]">
+                <div className="mt-4 md:mt-6 p-3 md:p-4 bg-white/10 border-2 border-white/30 shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
+                  <p className="font-pixel text-xs md:text-sm text-white leading-relaxed drop-shadow-[2px_2px_0_rgba(0,0,0,0.5)]">
                     <span className="text-green-300">Присоединяйтесь к нам!</span> Если вы любите политику, стратегию и хотите испытать свои навыки в управлении, наш сервер — это то, что вам нужно! Создайте свою историю в мире Minecraft, где каждое ваше решение имеет значение.
                   </p>
                 </div>
