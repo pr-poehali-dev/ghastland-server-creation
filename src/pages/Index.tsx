@@ -15,7 +15,7 @@ const Index = () => {
   };
   return (
     <div className="min-h-screen bg-background text-foreground overflow-hidden">
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDEwIEwgNDAgMTAgTSAxMCAwIEwgMTAgNDAgTSAwIDIwIEwgNDAgMjAgTSAyMCAwIEwgMjAgNDAgTSAwIDMwIEwgNDAgMzAgTSAzMCAwIEwgMzAgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-20"></div>
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDEwIEwgNDAgMTAgTSAxMCAwIEwgMTAgNDAgTSAwIDIwIEwgNDAgMjAgTSAyMCAwIEwgMjAgNDAgTSAwIDMwIEwgNDAgMzAgTSAzMCAwIEwgMzAgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-20 animate-grid-move"></div>
       
       <nav className="relative z-10 border-b-4 border-card bg-muted/50 backdrop-blur-sm animate-fade-in">
         <div className="container mx-auto px-4 py-4">
@@ -50,13 +50,13 @@ const Index = () => {
           </a>
 
           <div className="flex flex-col items-center gap-2 mt-4">
-            <p className="font-pixel text-xs text-muted-foreground">
+            <p className="font-pixel text-xs text-muted-foreground animate-glow-pulse">
               GhastLand.mineserver.xyz
             </p>
             <Button
               onClick={copyServerIP}
               size="sm"
-              className="font-pixel text-xs bg-secondary hover:bg-secondary/80 text-secondary-foreground border-2 border-secondary/70 shadow-[4px_4px_0_rgba(0,0,0,0.3)] hover:shadow-[6px_6px_0_rgba(0,0,0,0.4)] transition-all hover:-translate-y-0.5 hover:scale-105 animate-bounce-slow"
+              className="font-pixel text-xs bg-secondary hover:bg-secondary/80 text-secondary-foreground border-2 border-secondary/70 shadow-[4px_4px_0_rgba(0,0,0,0.3)] hover:shadow-[6px_6px_0_rgba(0,0,0,0.4)] transition-all hover:-translate-y-0.5 hover:scale-105 animate-bounce-slow hover:animate-shake-subtle"
             >
               <Icon name="Copy" size={14} className="mr-1" />
               Копировать IP
@@ -153,19 +153,19 @@ const Index = () => {
               
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-6">
                 <div className="text-center">
-                  <div className="text-3xl mb-2 animate-float [animation-delay:100ms]">💎</div>
+                  <div className="text-3xl mb-2 animate-float [animation-delay:100ms] cursor-pointer hover:scale-150 transition-transform duration-300 animate-glow-pulse">💎</div>
                   <p className="font-pixel text-xs text-foreground/70">Custom Items</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl mb-2 animate-float [animation-delay:200ms]">🏰</div>
+                  <div className="text-3xl mb-2 animate-float [animation-delay:200ms] cursor-pointer hover:scale-150 transition-transform duration-300 animate-glow-pulse">🏰</div>
                   <p className="font-pixel text-xs text-foreground/70">Epic Builds</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl mb-2 animate-float [animation-delay:300ms]">🎮</div>
+                  <div className="text-3xl mb-2 animate-float [animation-delay:300ms] cursor-pointer hover:scale-150 transition-transform duration-300 animate-glow-pulse">🎮</div>
                   <p className="font-pixel text-xs text-foreground/70">Events</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl mb-2 animate-float [animation-delay:400ms]">👥</div>
+                  <div className="text-3xl mb-2 animate-float [animation-delay:400ms] cursor-pointer hover:scale-150 transition-transform duration-300 animate-glow-pulse">👥</div>
                   <p className="font-pixel text-xs text-foreground/70">Community</p>
                 </div>
               </div>
