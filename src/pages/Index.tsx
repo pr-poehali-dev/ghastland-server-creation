@@ -17,21 +17,21 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground overflow-hidden">
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDEwIEwgNDAgMTAgTSAxMCAwIEwgMTAgNDAgTSAwIDIwIEwgNDAgMjAgTSAyMCAwIEwgMjAgNDAgTSAwIDMwIEwgNDAgMzAgTSAzMCAwIEwgMzAgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-20"></div>
       
-      <nav className="relative z-10 border-b-4 border-card bg-muted/50 backdrop-blur-sm">
+      <nav className="relative z-10 border-b-4 border-card bg-muted/50 backdrop-blur-sm animate-fade-in">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-8">
-              <h1 className="font-pixel text-primary drop-shadow-[0_2px_0_rgba(0,0,0,0.8)] font-black text-3xl">
+              <h1 className="font-pixel text-primary drop-shadow-[0_2px_0_rgba(0,0,0,0.8)] font-black text-3xl transition-all duration-300 hover:scale-110 hover:text-primary/80 cursor-pointer">
                 GHASTLAND
               </h1>
               <div className="hidden md:flex gap-6 text-sm">
-                <a href="#" className="text-foreground hover:text-primary transition-colors font-pixel text-xs border-b-2 border-secondary pb-1">
+                <a href="#" className="text-foreground hover:text-primary transition-all duration-300 font-pixel text-xs border-b-2 border-secondary pb-1 hover:scale-110 hover:-translate-y-0.5">
                   Home
                 </a>
-                <a href="#" className="text-foreground/70 hover:text-primary transition-colors font-pixel text-xs">
+                <a href="#" className="text-foreground/70 hover:text-primary transition-all duration-300 font-pixel text-xs hover:scale-110 hover:-translate-y-0.5">
                   Server Info
                 </a>
-                <a href="#" className="text-foreground/70 hover:text-primary transition-colors font-pixel text-xs">
+                <a href="#" className="text-foreground/70 hover:text-primary transition-all duration-300 font-pixel text-xs hover:scale-110 hover:-translate-y-0.5">
                   Community
                 </a>
               </div>
@@ -56,7 +56,7 @@ const Index = () => {
             <Button
               onClick={copyServerIP}
               size="sm"
-              className="font-pixel text-xs bg-secondary hover:bg-secondary/80 text-secondary-foreground border-2 border-secondary/70 shadow-[4px_4px_0_rgba(0,0,0,0.3)] hover:shadow-[6px_6px_0_rgba(0,0,0,0.4)] transition-all hover:-translate-y-0.5"
+              className="font-pixel text-xs bg-secondary hover:bg-secondary/80 text-secondary-foreground border-2 border-secondary/70 shadow-[4px_4px_0_rgba(0,0,0,0.3)] hover:shadow-[6px_6px_0_rgba(0,0,0,0.4)] transition-all hover:-translate-y-0.5 hover:scale-105 animate-bounce-slow"
             >
               <Icon name="Copy" size={14} className="mr-1" />
               Копировать IP
@@ -75,15 +75,15 @@ const Index = () => {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-colors">
+                  <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-all duration-300 hover:translate-x-1">
                     <td className="font-pixel text-[10px] md:text-xs text-foreground p-2 md:p-4">Версия</td>
                     <td className="font-pixel text-[10px] md:text-xs text-orange-300 p-2 md:p-4">1.16.5</td>
                   </tr>
-                  <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-colors">
+                  <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-all duration-300 hover:translate-x-1">
                     <td className="font-pixel text-[10px] md:text-xs text-foreground p-2 md:p-4">Режим</td>
                     <td className="font-pixel text-[10px] md:text-xs text-orange-300 p-2 md:p-4">24/7</td>
                   </tr>
-                  <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-colors">
+                  <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-all duration-300 hover:translate-x-1">
                     <td className="font-pixel text-[10px] md:text-xs text-foreground p-2 md:p-4">Сервер</td>
                     <td className="p-2 md:p-4">
                       <a href="https://t.me/GhastLand" target="_blank" rel="noopener noreferrer" className="font-pixel text-[10px] md:text-xs text-blue-400 hover:text-blue-300 transition-colors inline-flex items-center gap-1 md:gap-2">
@@ -92,7 +92,7 @@ const Index = () => {
                       </a>
                     </td>
                   </tr>
-                  <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-colors">
+                  <tr className="border-b-2 border-blue-500/20 hover:bg-blue-500/10 transition-all duration-300 hover:translate-x-1">
                     <td className="font-pixel text-[10px] md:text-xs text-foreground p-2 md:p-4">ПК</td>
                     <td className="p-2 md:p-4">
                       <a href="https://tlauncher.ru/" target="_blank" rel="noopener noreferrer" className="font-pixel text-[10px] md:text-xs text-orange-400 hover:text-orange-300 transition-colors inline-flex items-center gap-1 md:gap-2">
@@ -101,7 +101,7 @@ const Index = () => {
                       </a>
                     </td>
                   </tr>
-                  <tr className="hover:bg-blue-500/10 transition-colors">
+                  <tr className="hover:bg-blue-500/10 transition-all duration-300 hover:translate-x-1">
                     <td className="font-pixel text-[10px] md:text-xs text-foreground p-2 md:p-4">Телефон</td>
                     <td className="p-2 md:p-4">
                       <a href="https://trashbox.ru/link/pojavlauncher-android" target="_blank" rel="noopener noreferrer" className="font-pixel text-[10px] md:text-xs text-orange-400 hover:text-orange-300 transition-colors inline-flex items-center gap-1 md:gap-2">
@@ -117,7 +117,7 @@ const Index = () => {
         </div>
 
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 mb-16">
-          <Card className="p-6 bg-card border-4 border-card/70 shadow-[8px_8px_0_rgba(0,0,0,0.3)] hover:shadow-[12px_12px_0_rgba(0,0,0,0.4)] transition-all hover:-translate-y-1 animate-fade-in [animation-delay:150ms]">
+          <Card className="p-6 bg-card border-4 border-card/70 shadow-[8px_8px_0_rgba(0,0,0,0.3)] hover:shadow-[12px_12px_0_rgba(0,0,0,0.4)] transition-all hover:-translate-y-1 hover:scale-105 animate-fade-in [animation-delay:150ms]">
             <div className="space-y-4">
               <div className="flex items-center gap-3 pb-3 border-b-2 border-secondary/30">
                 <div className="w-8 h-8 bg-secondary rounded flex items-center justify-center">
@@ -127,11 +127,11 @@ const Index = () => {
               </div>
               
               <div className="space-y-3">
-                <div className="flex items-center gap-3 p-2 bg-muted/50 rounded">
+                <div className="flex items-center gap-3 p-2 bg-muted/50 rounded transition-all duration-300 hover:bg-muted hover:scale-105 hover:shadow-lg cursor-pointer">
                   <div className="text-2xl">⚔️</div>
                   <span className="font-pixel text-xs text-foreground">Survival</span>
                 </div>
-                <div className="flex items-center gap-3 p-2 bg-muted/50 rounded">
+                <div className="flex items-center gap-3 p-2 bg-muted/50 rounded transition-all duration-300 hover:bg-muted hover:scale-105 hover:shadow-lg cursor-pointer">
                   <div className="text-2xl">🏗️</div>
                   <span className="font-pixel text-xs text-foreground">Creative</span>
                 </div>
@@ -272,42 +272,42 @@ const Index = () => {
               </div>
               
               <div className="space-y-4">
-                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)]">
+                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)] transition-all duration-300 hover:bg-muted hover:scale-105 hover:shadow-[6px_6px_0_rgba(0,0,0,0.3)] animate-fade-in [animation-delay:500ms]">
                   <div className="flex items-start gap-3">
                     <span className="font-pixel text-primary text-sm flex-shrink-0">1.</span>
-                    <p className="font-pixel text-xs text-foreground leading-relaxed">Запрещён читерство и использование модификаций, дающих преимущество</p>
+                    <p className="font-pixel text-xs text-foreground leading-relaxed">Запрещено читерство и использование модификаций, дающих преимущество</p>
                   </div>
                 </div>
 
-                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)]">
+                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)] transition-all duration-300 hover:bg-muted hover:scale-105 hover:shadow-[6px_6px_0_rgba(0,0,0,0.3)] animate-fade-in [animation-delay:550ms]">
                   <div className="flex items-start gap-3">
                     <span className="font-pixel text-primary text-sm flex-shrink-0">2.</span>
                     <p className="font-pixel text-xs text-foreground leading-relaxed">Уважайте других игроков - никакого гриферства и оскорблений</p>
                   </div>
                 </div>
 
-                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)]">
+                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)] transition-all duration-300 hover:bg-muted hover:scale-105 hover:shadow-[6px_6px_0_rgba(0,0,0,0.3)] animate-fade-in [animation-delay:600ms]">
                   <div className="flex items-start gap-3">
                     <span className="font-pixel text-primary text-sm flex-shrink-0">3.</span>
                     <p className="font-pixel text-xs text-foreground leading-relaxed">Запрещено строить на территории других игроков без разрешения</p>
                   </div>
                 </div>
 
-                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)]">
+                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)] transition-all duration-300 hover:bg-muted hover:scale-105 hover:shadow-[6px_6px_0_rgba(0,0,0,0.3)] animate-fade-in [animation-delay:650ms]">
                   <div className="flex items-start gap-3">
                     <span className="font-pixel text-primary text-sm flex-shrink-0">4.</span>
                     <p className="font-pixel text-xs text-foreground leading-relaxed">Не спамьте в чате и не используйте нецензурную лексику</p>
                   </div>
                 </div>
 
-                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)]">
+                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)] transition-all duration-300 hover:bg-muted hover:scale-105 hover:shadow-[6px_6px_0_rgba(0,0,0,0.3)] animate-fade-in [animation-delay:700ms]">
                   <div className="flex items-start gap-3">
                     <span className="font-pixel text-primary text-sm flex-shrink-0">5.</span>
                     <p className="font-pixel text-xs text-foreground leading-relaxed">Слушайте администрацию и модераторов сервера</p>
                   </div>
                 </div>
 
-                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)]">
+                <div className="p-4 bg-muted/50 border-l-4 border-primary shadow-[4px_4px_0_rgba(0,0,0,0.2)] transition-all duration-300 hover:bg-muted hover:scale-105 hover:shadow-[6px_6px_0_rgba(0,0,0,0.3)] animate-fade-in [animation-delay:750ms]">
                   <div className="flex items-start gap-3">
                     <span className="font-pixel text-primary text-sm flex-shrink-0">6.</span>
                     <p className="font-pixel text-xs text-foreground leading-relaxed">Запрещены фермы, создающие лаги на сервере</p>
