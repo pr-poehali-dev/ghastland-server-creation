@@ -67,4 +67,59 @@
   .animate-bounce-slow {
     animation: bounce-slow 2s ease-in-out infinite;
   }
+
+  @keyframes pulse-glow-bounce {
+    0%,
+    100% {
+      transform: translateY(0) scale(1);
+      box-shadow:
+        0 0 20px hsl(122, 39%, 49%),
+        0 0 40px hsl(122, 39%, 49%);
+    }
+    25% {
+      box-shadow:
+        0 0 30px hsl(122, 39%, 49%),
+        0 0 60px hsl(122, 39%, 49%),
+        0 0 80px hsl(122, 39%, 49%);
+    }
+    50% {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow:
+        0 0 40px hsl(122, 39%, 49%),
+        0 0 80px hsl(122, 39%, 49%),
+        0 0 120px hsl(122, 39%, 49%);
+    }
+    75% {
+      box-shadow:
+        0 0 30px hsl(122, 39%, 49%),
+        0 0 60px hsl(122, 39%, 49%),
+        0 0 80px hsl(122, 39%, 49%);
+    }
+  }
+
+  .animate-pulse-glow-bounce {
+    animation: pulse-glow-bounce 2s ease-in-out infinite;
+  }
+
+  @keyframes border-rotate {
+    0% {
+      border-color: hsl(122, 39%, 49%);
+    }
+    25% {
+      border-color: hsl(30, 100%, 50%);
+    }
+    50% {
+      border-color: hsl(210, 100%, 50%);
+    }
+    75% {
+      border-color: hsl(0, 100%, 50%);
+    }
+    100% {
+      border-color: hsl(122, 39%, 49%);
+    }
+  }
+
+  .animate-border-rotate {
+    animation: border-rotate 4s linear infinite;
+  }
 }

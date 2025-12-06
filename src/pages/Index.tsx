@@ -43,11 +43,11 @@ const Index = () => {
 
       <main className="relative z-10 container mx-auto px-4 py-16">
         <div className="text-center mb-16 animate-fade-in">
-          <div className="inline-block mb-8 p-6 bg-primary border-4 border-primary/70 shadow-[8px_8px_0_rgba(0,0,0,0.3)] animate-pulse-glow">
+          <a href="https://t.me/gast3232" target="_blank" rel="noopener noreferrer" className="inline-block mb-8 p-6 bg-primary border-4 border-primary/70 shadow-[8px_8px_0_rgba(0,0,0,0.3)] animate-pulse-glow-bounce cursor-pointer transition-transform hover:scale-110">
             <h2 className="font-pixel md:text-6xl text-primary-foreground drop-shadow-[4px_4px_0_rgba(0,0,0,0.5)] text-sm">
               GHASTLAND
             </h2>
-          </div>
+          </a>
 
           <div className="flex flex-col items-center gap-2 mt-4">
             <p className="font-pixel text-xs text-muted-foreground">
@@ -65,7 +65,7 @@ const Index = () => {
         </div>
 
         <div className="max-w-4xl mx-auto mb-16">
-          <Card className="p-8 bg-gradient-to-br from-blue-900/40 via-card to-orange-900/40 border-4 border-blue-500/30 shadow-[8px_8px_0_rgba(0,0,0,0.3)] animate-fade-in [animation-delay:150ms]">
+          <Card className="p-8 bg-gradient-to-br from-blue-900/40 via-card to-orange-900/40 border-4 shadow-[8px_8px_0_rgba(0,0,0,0.3)] animate-fade-in [animation-delay:150ms] animate-border-rotate">
             <div className="overflow-x-auto">
               <table className="w-full border-collapse">
                 <thead>
@@ -117,7 +117,7 @@ const Index = () => {
         </div>
 
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 mb-16">
-          <Card className="p-6 bg-card border-4 border-card/70 shadow-[8px_8px_0_rgba(0,0,0,0.3)] hover:shadow-[12px_12px_0_rgba(0,0,0,0.4)] transition-all hover:-translate-y-1 hover:scale-105 animate-fade-in [animation-delay:150ms]">
+          <Card className="p-6 bg-card border-4 shadow-[8px_8px_0_rgba(0,0,0,0.3)] hover:shadow-[12px_12px_0_rgba(0,0,0,0.4)] transition-all hover:-translate-y-1 hover:scale-105 animate-fade-in [animation-delay:150ms] animate-border-rotate">
             <div className="space-y-4">
               <div className="flex items-center gap-3 pb-3 border-b-2 border-secondary/30">
                 <div className="w-8 h-8 bg-secondary rounded flex items-center justify-center">
@@ -142,7 +142,7 @@ const Index = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <Card className="p-8 bg-card border-4 border-card/70 shadow-[8px_8px_0_rgba(0,0,0,0.3)] animate-fade-in [animation-delay:300ms]">
+          <Card className="p-8 bg-card border-4 shadow-[8px_8px_0_rgba(0,0,0,0.3)] animate-fade-in [animation-delay:300ms] animate-border-rotate">
             <div className="text-center space-y-6">
               <div className="flex items-center justify-center gap-3 mb-4">
 
@@ -174,7 +174,7 @@ const Index = () => {
         </div>
 
         <div className="max-w-4xl mx-auto mt-16">
-          <Card className="p-8 bg-card border-4 border-card/70 shadow-[8px_8px_0_rgba(0,0,0,0.3)] animate-fade-in [animation-delay:450ms]">
+          <Card className="p-8 bg-card border-4 shadow-[8px_8px_0_rgba(0,0,0,0.3)] animate-fade-in [animation-delay:450ms] animate-border-rotate">
             <div className="space-y-6">
               <div className="flex items-center gap-3 pb-4 border-b-4 border-secondary/30">
                 <div className="w-10 h-10 bg-secondary border-2 border-secondary/70 shadow-[4px_4px_0_rgba(0,0,0,0.3)] flex items-center justify-center">
